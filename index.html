@@ -1,43 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR"> <!-- Define a linguagem da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>As Melhores Loubet</title>
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+    <title>Rádio Loubet</title> <!-- Título da aba -->
+
+    <!-- Importação da fonte Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícone da aba -->
     <link rel="icon" type="image/png" href="imagens/Loubet.jpeg">
-    <link rel="stylesheet" href="stylex.css">
+
+    <!-- Reset de estilos e CSS principal -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Efeitos Sonoros</h1>
-    <h2>Rádio Loubet</h2>
-     <section class="teclado"> 
-    <button class="tecla Anticorpos"><img src="imagens/download (5).jpeg"></button>
-    <button class="tecla Altamente Inflámavel"><img src="imagens/download (8).jpeg"></button>
-    <button class="tecla Made In Roça"><img src="imagens/download (7).jpeg"></button>
-    <button class="tecla Vaqueiro Apaixonado"><img src="imagens/download (4).jpeg"></button>
-    <button class="tecla Muié,Chapéu e Botina"><img src="imagens/download (6).jpeg"></button>
-    <button class="tecla Cabaré"><img src="imagens/download (1).jpeg"></button>
-    <button class="tecla Canal do Boi"><img src="imagens/download (3).jpeg"></button>
-    <button class="tecla Mastiga Abelha"><img src="imagens/download.jpeg"></button>
-    <button class="tecla Muié Brava"><img src="imagens/download (2).jpeg"></button>
-     </section>
+
+    <!-- Título principal -->
+    <h1>Rádio Loubet</h1>
+
+    <!-- Container das teclas -->
+    <section class="teclado">
+        <!-- Cada botão contém uma imagem ilustrativa -->
+        <button class="tecla tecla_som1"><img src="imagens/download (1).jpeg" alt="Som 1"></button>
+        <button class="tecla tecla_som2"><img src="imagens/download (2).jpeg" alt="Som 2"></button>
+        <button class="tecla tecla_som3"><img src="imagens/download (3).jpeg" alt="Som 3"></button>
+
+        <button class="tecla tecla_som4"><img src="imagens/download (4).jpeg" alt="Som 4"></button>
+        <button class="tecla tecla_som5"><img src="imagens/download (5).jpeg" alt="Som 5"></button>
+        <button class="tecla tecla_som6"><img src="imagens/download (6).jpeg" alt="Som 6"></button>
+
+        <button class="tecla tecla_som7"><img src="imagens/download (7).jpeg" alt="Som 7"></button>
+        <button class="tecla tecla_som8"><img src="imagens/download (8).jpeg" alt="Som 8"></button>
+        <button class="tecla tecla_som9"><img src="imagens/download.jpeg" alt="Som 9"></button>
+    </section>
 
     <!-- Áudios correspondentes aos botões -->
-    <audio src="./song/loubet-altamente-inflamavel-24196712.mp3 "id= som_tecla_som1"></audio>
-    <audio src="./song/loubet-anticorpos-114e6242.mp3" id="som_tecla_som2"></audio>
-    <audio src="./song/loubet-cabare-d5390c36.mp3" id="som_tecla_som3"></audio>
-
-    <audio src="./song/loubet-canal-do-boi-4427a9b7.mp3" id="som_tecla_som4"></audio>
-    <audio src="./song/loubet-made-in-roca-c6384250.mp3" id="som_tecla_som5"></audio>
-    <audio src="./song/loubet-mastiga-abelha-cbe9ba39.mp3" id="som_tecla_som6"></audio>
-    
-    <audio src="./song/loubet-muie-brava-acustico-2a7f0a3a.mp3" id="som_tecla_som7"></audio>
-    <audio src="./song/loubet-muie-chapeu-e-butina-bbd3795c.mp3" id="som_tecla_som8"></audio>
-    <audio src="./song/loubet-muie-chapeu-e-butina-bbd3795c.mp3" id="som_tecla_som9"></audio>
+    <audio src="./song/loubet-cabare-d5390c36.mp3" id="som_tecla_som1"></audio>
+    <audio src="./song/loubet-muie-brava-acustico-2a7f0a3a.mp3" id="som_tecla_som2"></audio>
+    <audio src="./song/loubet-canal-do-boi-4427a9b7.mp3" id="som_tecla_som3"></audio>
+    <audio src="./song/loubet-vaqueiro-apaixonado-59b45aa5.mp3" id="som_tecla_som4"></audio>
+    <audio src="./song/loubet-anticorpos-114e6242.mp3" id="som_tecla_som5"></audio>
+    <audio src="./song/loubet-muie-chapeu-e-butina-bbd3795c.mp3" id="som_tecla_som6"></audio>
+    <audio src="./song/loubet-made-in-roca-c6384250.mp3" id="som_tecla_som7"></audio>
+    <audio src="./song/loubet-altamente-inflamavel-24196712.mp3" id="som_tecla_som8"></audio>
+    <audio src="./song/loubet-mastiga-abelha-cbe9ba39.mp3" id="som_tecla_som9"></audio>
 
     <!-- Script principal -->
     <script src="main.js"></script>
